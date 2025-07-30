@@ -106,7 +106,7 @@ Sistem Backend RESTful API ini dibangun menggunakan **Spring Boot 2.7.18** dan *
 ## Validasi & Aturan
 
 - Semua field **wajib diisi** (tidak boleh `null`)
-- `kode_kantor` dan `kode_gudang` harus valid (berelasi)
+- `kodeKantor` dan `kodeGudang` harus valid (berelasi)
 - `waktuRekam` hanya diisi saat insert
 - `waktuUpdate` hanya diubah saat update
 
@@ -114,5 +114,5 @@ Sistem Backend RESTful API ini dibangun menggunakan **Spring Boot 2.7.18** dan *
 
 1. Clone repository ini:
    bash
-   git clone <repository-url>
+   git clone https://github.com/lipprendy123/be-tes.git
    cd nama-folder-project
