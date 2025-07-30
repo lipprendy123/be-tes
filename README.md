@@ -110,9 +110,24 @@ Sistem Backend RESTful API ini dibangun menggunakan **Spring Boot 2.7.18** dan *
 - `waktuRekam` hanya diisi saat insert
 - `waktuUpdate` hanya diubah saat update
 
+### Environment / `application.properties`
+
+```properties
+spring.application.name=gudangApp
+spring.datasource.url=jdbc:postgresql://localhost:5432/gudangapp
+spring.datasource.username=postgres
+spring.datasource.password=
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
+
 ## Cara Menjalankan Project
 
 1. Clone repository ini:
    bash
    git clone https://github.com/lipprendy123/be-tes.git
    cd nama-folder-project
+```
